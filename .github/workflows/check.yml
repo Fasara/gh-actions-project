@@ -1,5 +1,5 @@
 name: Runs checks on the project
-on: push
+on: [push, workflow_dispatch]
 jobs:
   lint:
     runs-on: ubuntu-latest
